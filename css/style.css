@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Slab:wght@500&display=swap');
+body{
+    font-family:"Roboto Slab",sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn1{
+    font-size: 22px;
+    width: 220px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.g-section{
+    padding: 3rem 0;
+}
+.g-heading{
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.g-head-p{
+    color: #7B7B7B;
+    text-align: center;
+}
+
+.first-section{
+    background-image: url(./1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 10rem 0;
+    text-align: center;
+}
+.first-section p{
+    font-size: 2rem;
+}
+.first-section h2{
+    font-size: 5rem;
+    margin: 22px 0;
+}
+.about-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    
+}
+.about-sub-div2 {
+    width: 500px;
+}
+.about-sub-div2 h2{
+    font-size: 33px;
+}
+.about-sub-div2 p{
+    color: #7B7B7B;
+    margin: 15px 0;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-single-item{
+    padding: 40px;
+    text-align: center;
+}
+.grid-single-item h2{
+    margin: 13px 0;
+}
+.grid-single-item p{
+    color: #7B7B7B;
+}
+.grid-container-2{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-second-item{
+    padding: 40px;
+    text-align: center;
+}
+.grid-second-item h2{
+    margin-left: 50px;
+    margin: 13px 0;
+}
+.grid-second-item p{
+    color: #7B7B7B;
+}
+
+.c-i-size{
+    font-size: 62px;
+}
+
+.cn{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+.testimonial{
+    color: #000 !important;
+    margin-top: 7px;   
+}
+.contact-heading{
+    font-size: 50px;
+    text-align: center;
+}
+.center{
+   color: #000 !important;
+    padding: 30px;
+    font-size: xxx-large;
+    font-weight: 600;
+}
+footer{
+    font-size: 20px;
+    background-color: black;
+    color:#ffffff;
+    padding: 30px 0;
+    margin: 30px;
+}
